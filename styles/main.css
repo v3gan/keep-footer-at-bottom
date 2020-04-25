@@ -27,19 +27,16 @@ body {
 	flex-direction: column;
 	align-items: stretch;
 	width: 100%;
-	/*min-height: 100vh;
-	overflow: hidden;
-	display: block;
-	position: relative;
-	padding-bottom: 100px; */
 }
 
-main {
-	display: flex;
-	flex-grow: 1;
+#main-and-sidebar {
+    display: flex;
+    flex-grow: 1;
 }
 
-header, main, footer {
+
+
+header, #main-and-sidebar, footer {
 	flex-shrink: 0;
 }
 
@@ -110,10 +107,6 @@ body {
 	background: #fafafa;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #333;
-}
-
-.text-center {
-	text-align: center;
 }
 
 header, footer {
